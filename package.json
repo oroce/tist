@@ -1,7 +1,7 @@
 {
   "name": "tist",
-  "version": "0.0.0",
-  "description": "Texas Instruments SensorTag module, actually a sensortag module wrapper",
+  "version": "0.1.0",
+  "description": "Texas Instruments SensorTag module",
   "main": "index.js",
   "dependencies": {
     "sensortag": "~0.1.8",
