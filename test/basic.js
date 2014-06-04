@@ -53,4 +53,12 @@ describe('Device', function() {
     d.transforms.irTemperature.should.be.true;
     d.transforms.foo.should.eql('bar');
   });
+
+  it('should store device\s uuid', function() {
+    var d = new (Tist.Device)({
+      connect: function() {},
+      uuid: 'foobar'
+    });
+    d.uuid.should.eql('foobar');
+  });
 });
